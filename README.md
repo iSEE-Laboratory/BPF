@@ -13,7 +13,7 @@
 
 ![image-20240717145206666](assets/image-20240717145206666.png)
 
-**The overall framework of our method.** The top side illustrates the Bridge Past and Future (BPF) procedure, which identifies objects of past classes and excludes several potential objects of future classes to ensure consistent optimization during the entire training process. The bottom side shows the Distillation with Future (DwF) process, which employs both the old model $\mathcal{M}_{t-1}$ adept at detecting old categories and the interim model $\mathcal{M}_{t}^{im}$ trained on $\mathcal{D}_t$ and specialized in new categories to conduct a comprehensive distillation across all categories for the current model $\mathcal{M}_t$.
+**The overall framework of our method.** The top side illustrates the Bridge Past and Future (BPF) procedure, which identifies objects of past classes and excludes several potential objects of future classes to ensure consistent optimization during the entire training process. The bottom side shows the Distillation with Future (DwF) process, which employs both the old model $M_{t-1}$ adept at detecting old categories and the interim model $M_{t}^{im}$ trained on $D_t$ and specialized in new categories to conduct a comprehensive distillation across all categories for the current model $M_t$.
 
 
 
