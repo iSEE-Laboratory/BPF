@@ -64,7 +64,7 @@ You can find the Pascal-VOC dataset already in Detectron.
 
 ### 4. Run
 
-#### 1. Train the first task
+#### 4.1 Train the first task
 
 For the setting of the Pascal-VOC dataset, the first task usually contains categories 5, 10, 15 and 19. So when we train the first task for different settings, we could only train four kinds of the first task. First, choosing the correspoinding task setting (e.g., `taks=10-10`) in the `scripts/run_firststep.sh` file according to your needs, and then run:
 
@@ -74,7 +74,7 @@ bash scripts/run_first_step.sh
 
 
 
-#### 2. Train the intermediate model
+#### 4.2 Train the intermediate model
 
 ``` shell script
 bash scripts/run_finetune_step.sh
@@ -82,7 +82,7 @@ bash scripts/run_finetune_step.sh
 
 
 
-#### 3. Train the target model
+#### 4.3 Train the target model
 
 ``` shell script
 bash scripts/run_incre_finetune.sh
@@ -90,7 +90,9 @@ bash scripts/run_incre_finetune.sh
 
 
 
+### CHECKPOINT
 
+We provide [checkpoint](https://drive.google.com/drive/folders/1AqFcBFQjtmpYpVDvqHkrX2xDjARkCH0V?usp=sharing) here.
 
 
 
